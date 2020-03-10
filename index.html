@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input as object</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="src/app.js">
+        <div class="container" id="container">
+
+            <div class="header" id="header">
+                Email
+            </div>
+           <hr/>
+
+            <div id="inputFrom">
+                <input type="email" placeholder="From" id="from">
+            </div>
+
+            <div id="inputTo">
+               
+                 <input type="email"  placeholder="To" id="to"> 
+                 <br>
+                 <span id="tagTo" style="display:none;"></span>
+            </div>
+
+           <div id="inputSub">
+                <input type="text" placeholder="Subject" id="subject">
+           </div>
+
+            <div id="inputBody">
+                <textarea name="" id="body" rows="5" cols="30" placeholder="Compose email"></textarea>
+            </div>
+
+            <div id="btn">
+             <input type="button" id="button" value="Send" ></button>
+            </div>
+
+            <div class="msg" id="msg">
+             <pre></pre>
+            </div>  
+            
+        </div>
+           
+    </form>
+    <script src="src/app.js"></script>
+</body>
+</html>
