@@ -6,7 +6,7 @@ const inputsub = document.querySelector('#subject');
 const inputbody = document.querySelector('#body');
 const button = document.querySelector('#button');
 
-inputto.addEventListener("keypress",function(e){
+inputto.addEventListener("keyup",function(e){
 
     if(e.which === 13){
         const span = document.createElement("span");
